@@ -16,22 +16,27 @@
   </style>
 </head>
 <body>
-  <div class="w-[320px] h-[700px] mx-auto bg">
-    <img src="./images/bg-mobile.svg" alt="" class="absolute w-[319px] z-10">
-  <div class="mt-5 ml-5">
+  <div class="w-[320px] md:w-[100%] h-[700px] md:h-[750px] mx-auto bg -mt-[20px]">
+    <img src="./images/bg-mobile.svg" alt="" class="absolute w-[319px] z-10 md:hidden">
+    <img src="./images/bg-desktop.svg" alt="" class="absolute w-[100%] z-10 hidden md:flex">
+  <div class="pt-10 ml-5">
     <img src="./images/logo.svg" alt="" class="z-50 w-[145px]">
-    <img src="./images/illustration-mockups.svg" alt="" class="w-[280px] z-50 mt-[40px] relative">
 
-    <p class="font-semibold text-white mt-[30px] w-[240px] text-[20px] text-center ml-[10px]">Build The Community Your Fans Will Love</p>
-    <p class="text-white text-center w-[240px] ml-[10px] text-[12px] mt-5">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+    <div class="md:flex">
+    <img src="./images/illustration-mockups.svg" alt="" class="w-[280px] md:w-[700px] z-50 mt-[40px] relative">
+    
+    <div class="md:flex-col md:ml-5 md:relative md:z-50">
+    <p class="font-semibold text-white mt-[30px] w-[240px] md:w-[400px] md:text-left text-[20px] md:text-[40px] text-center ml-[10px]">Build The Community Your Fans Will Love</p>
+    <p class="text-white text-center md:text-left w-[240px] ml-[10px] text-[12px] md:w-[450px] md:text-[15px] mt-5">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
       Create connections with your users as you engage in genuine discussion.</p>
 
-      <button class="rounded-full w-[200px] h-[35px] bg-white text-purple-500 text-[13px] ml-[35px] mt-5">Register</button>
-
-      <div class="flex space-x-[10px] mt-[40px] ml-[80px]">
-        <img src="./images/facebook.svg" alt="" class="w-[30px] border-solid border-[1px] border-gray-300 p-[5px] rounded-full">
-        <img src="./images/twitter.svg" alt="" class="w-[30px] border-solid border-[1px] border-gray-300 p-[5px] rounded-full">
-        <img src="./images/instagram.svg" alt="" class="w-[30px] border-solid border-[1px] border-gray-300 p-[5px] rounded-full">
+      <button class="rounded-full w-[200px] md:w-[150px] h-[35px] bg-white text-purple-500 text-[13px] ml-[35px] md:ml-[10px]  mt-5">Register</button>
+    </div>
+    </div>
+      <div class="flex space-x-[10px] mt-[40px] ml-[80px] md:float-right md:mr-[250px]">
+        <img src="./images/facebook.svg" alt="" class="w-[30px] bg-white border-solid border-[1px] border-gray-300 p-[5px] rounded-full">
+        <img src="./images/twitter.svg" alt="" class="w-[30px] bg-white border-solid border-[1px] border-gray-300 p-[5px] rounded-full">
+        <img src="./images/instagram.svg" alt="" class="w-[30px] bg-white border-solid border-[1px] border-gray-300 p-[5px] rounded-full">
       </div>
   </div>
   </div>
